@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "section": {
+      "name": "words",
+      "content": [
+        {"rusword": "извлекать", "translations":[
+          "retrieve",
+          "obtain",
+          "extract"
+        ]
+        },
+        {"rusword": "considerable", "translations": [
+          "существенный"
+        ]},
+        {"rusword": "", "translations": [
+          "",
+          "",
+          ""
+        ]},
+        {"rusword": "", "translations": [
+          "",
+          "",
+          ""
+        ]},
+        {"rusword": "", "translations": [
+          "",
+          "",
+          ""
+        ]},
+        {"rusword": "", "translations": [
+          "",
+          "",
+          ""
+        ]}
+      ]
+    },
+    "section": {
+      "name": "phrases",
+      "content": [
+        {"rusword": "ожидать(составное)", "translations": [
+          "look forward to"
+        ]},
+        {"rusword": "", "translations": [
+          "",
+          "",
+          ""
+        ]}
+      ]
+    }
+  }
+}

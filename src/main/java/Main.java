@@ -2,9 +2,14 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {
+    //TODO sections dictionary: words, phrases,sentenсes
+    //TODO counter of mistakes
+    //TODO json format of dictionary
+    //TODO synonyms mode
+
     public static void main (String []args){
         Checker checker = new Checker();
-        HashMap dictionary = Dictionary.returnDitionary();
+        HashMap dictionary = DictionaryBuilder.returnDitionary();
         WordsTable wordsTable = new WordsTable();
         wordsTable.generageWordsTable(dictionary);
         int dictionarySize = dictionary.size() - 1;
