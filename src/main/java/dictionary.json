@@ -9,23 +9,47 @@
           "extract"
         ]
         },
-        {"rusword": "considerable", "translations": [
-          "существенный"
+        {"rusword": "существенный", "translations": [
+          "considerable"
         ]},
-        {"rusword": "", "translations": [
-          "",
-          "",
-          ""
+        {"rusword": "оправдывать", "translations": [
+          "justify"
         ]},
-        {"rusword": "", "translations": [
-          "",
-          "",
-          ""
+        {"rusword": "ключевой", "translations": [
+          "crucial"
         ]},
-        {"rusword": "", "translations": [
-          "",
-          "",
-          ""
+        {"rusword": "расширять", "translations": [
+          "broaden"
+        ]},
+        {"rusword": "бросать (привычку или работу)", "translations": [
+          "quit"
+        ]},
+        {"rusword": "хвалить", "translations": [
+          "praise"
+        ]},
+        {"rusword": "обозревать, замечать", "translations": [
+          "observe"
+        ]},
+        {"rusword": "репетировать", "translations": [
+          "rehearse"
+        ]},
+        {"rusword": "позволять себе что-л.", "translations": [
+          "afford"
+        ]},
+        {"rusword": "обладать (навыком)", "translations": [
+          "possess"
+        ]},
+        {"rusword": "специалист по набору персонала", "translations": [
+          "recruiter"
+        ]},
+        {"rusword": "достижение", "translations": [
+          "achievement"
+        ]},
+        {"rusword": "разделитель", "translations": [
+          "delimiter"
+        ]},
+        {"rusword": "соискатель", "translations": [
+          "applicant"
         ]},
         {"rusword": "", "translations": [
           "",
@@ -39,6 +63,36 @@
       "content": [
         {"rusword": "ожидать(составное)", "translations": [
           "look forward to"
+        ]},
+        {"rusword": "производить впечатление", "translations": [
+          "make an impression"
+        ]},
+        {"rusword": "откликаться (на вакансию)", "translations": [
+          "apply for"
+        ]},
+        {"rusword": "отвечать ожиданиям", "translations": [
+          "to meet expectations"
+        ]},
+        {"rusword": "поднять проблему", "translations": [
+          "raise a problem"
+        ]},
+        {"rusword": "соответствующий опыт", "translations": [
+          "relevant experience"
+        ]},
+        {"rusword": "", "translations": [
+          "",
+          "",
+          ""
+        ]},
+        {"rusword": "", "translations": [
+          "",
+          "",
+          ""
+        ]},
+        {"rusword": "", "translations": [
+          "",
+          "",
+          ""
         ]},
         {"rusword": "", "translations": [
           "",
