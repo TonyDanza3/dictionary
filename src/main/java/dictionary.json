@@ -1,6 +1,6 @@
 {
-  "sections": {
-    "section": {
+  "sections": [
+    {
       "name": "words",
       "content": [
         {"rusword": "извлекать", "translations":[
@@ -58,7 +58,7 @@
         ]}
       ]
     },
-    "section": {
+    {
       "name": "phrases",
       "content": [
         {"rusword": "ожидать(составное)", "translations": [
@@ -101,5 +101,5 @@
         ]}
       ]
     }
-  }
+  ]
 }
