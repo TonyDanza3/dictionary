@@ -50,11 +50,6 @@
         ]},
         {"rusword": "соискатель", "translations": [
           "applicant"
-        ]},
-        {"rusword": "", "translations": [
-          "",
-          "",
-          ""
         ]}
       ]
     },
@@ -78,26 +73,6 @@
         ]},
         {"rusword": "соответствующий опыт", "translations": [
           "relevant experience"
-        ]},
-        {"rusword": "", "translations": [
-          "",
-          "",
-          ""
-        ]},
-        {"rusword": "", "translations": [
-          "",
-          "",
-          ""
-        ]},
-        {"rusword": "", "translations": [
-          "",
-          "",
-          ""
-        ]},
-        {"rusword": "", "translations": [
-          "",
-          "",
-          ""
         ]}
       ]
     }

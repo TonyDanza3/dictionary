@@ -1,5 +1,4 @@
 import com.jayway.jsonpath.*;
-import net.minidev.json.JSONObject;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -7,7 +6,7 @@ import java.nio.file.Paths;
 public  class DictionaryBuilder {
 
     String dictionary;
-    public  void readJsonDictionary() throws Exception {
+    public  void extractDataFromJsonFile() throws Exception {
         String file = "src/main/java/dictionary.json";
         dictionary = readFileAsString(file);
     }
@@ -16,18 +15,15 @@ public  class DictionaryBuilder {
         return new String(Files.readAllBytes(Paths.get(file)));
     }
 
-
-
-
     public void returnDictionary(){
         try {
-            readJsonDictionary();
+            extractDataFromJsonFile();
         } catch (Exception e) {
             e.printStackTrace();
         }
         int sectionsCount = countSections();
         //countwords
-        int[] wordsCount = countWords();
+        int[][] wordsCount = countWordsInEverySection(sectionsCount);
         //countTranslations
         //
     }
@@ -38,17 +34,20 @@ public  class DictionaryBuilder {
         return sections;
     }
 
-    public int[] countWords (){
-        int sectionsCount = JsonPath.read(dictionary,"$['sections'].size()");
-        int [] wordsCount = new int[sectionsCount];
+    public int[][] countWordsInEverySection(int sectionsCount){
+        int [][] wordsCount = new int[sectionsCount][1];
         for(int i=0;i < sectionsCount; i++){
-            wordsCount[i] = JsonPath.read(dictionary,"$['sections'][" + i + "].['content'].size()");
+            wordsCount[i][0] = JsonPath.read(dictionary,"$['sections'][" + i + "].['content'].size()");
         }
         return wordsCount;
     }
 
-    public int countTranslations(String word){
+    public int countTranslations(int [][] wordsInEverySection){
         int translations = 0;
+//        int sectionsCount = countSections();
+//        int [] wordsCount = countWordsInEverySection();
+//        int [][][] translationsCount = new int[][][];
+
 
         return translations;
     }

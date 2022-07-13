@@ -10,6 +10,9 @@ public class Main {
     public static void main (String []args){
         DictionaryBuilder dic = new DictionaryBuilder();
         dic.returnDictionary();
+//        int [][]wordsCount = (dic.countWordsInEverySection(dic.countSections()));
+//        System.out.println(wordsCount[0][0]);
+//        System.out.println(wordsCount[1][0]);
 
 
 
